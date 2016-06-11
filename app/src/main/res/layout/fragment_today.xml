@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="weather.duanzhao.com.weather2.TodayFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="15sp"
+
+        android:id="@+id/textView_temperture"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="15sp"
+        android:id="@+id/textView_weather"
+        android:layout_alignTop="@+id/textView_temperture"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="52dp"
+        android:layout_marginEnd="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="15sp"
+        android:id="@+id/textView_weather_id"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView_temperture"
+        android:layout_alignLeft="@+id/textView_temperture"
+        android:layout_alignStart="@+id/textView_temperture" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_wind"
+        android:layout_alignTop="@+id/textView_weather_id"
+        android:layout_alignRight="@+id/textView_weather"
+        android:layout_alignEnd="@+id/textView_weather" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_week"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView_weather_id"
+        android:layout_alignRight="@+id/textView_weather_id"
+        android:layout_alignEnd="@+id/textView_weather_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_city"
+        android:layout_alignTop="@+id/textView_week"
+        android:layout_alignLeft="@+id/textView_wind"
+        android:layout_alignStart="@+id/textView_wind" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_date_y"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView_week"
+        android:layout_alignLeft="@+id/textView_week"
+        android:layout_alignStart="@+id/textView_week" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_dressing_index"
+        android:layout_alignTop="@+id/textView_date_y"
+        android:layout_alignLeft="@+id/textView_city"
+        android:layout_alignStart="@+id/textView_city" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@android:color/holo_green_light"
+        android:id="@+id/textView_dressing_advice"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView_drying_index"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_wash_index"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView_date_y"
+        android:layout_alignStart="@+id/textView_date_y" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_travel_index"
+        android:layout_alignTop="@+id/textView_wash_index"
+        android:layout_alignLeft="@+id/textView_dressing_index"
+        android:layout_alignStart="@+id/textView_dressing_index" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_excisize_index"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView_wash_index"
+        android:layout_alignLeft="@+id/textView_wash_index"
+        android:layout_alignStart="@+id/textView_wash_index" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_uv_index"
+        android:layout_above="@+id/textView_comfort_index"
+        android:layout_alignLeft="@+id/textView_drying_index"
+        android:layout_alignStart="@+id/textView_drying_index" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_comfort_index"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/textView_excisize_index"
+        android:layout_alignLeft="@+id/textView_excisize_index"
+        android:layout_alignStart="@+id/textView_excisize_index" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_drying_index"
+        android:layout_alignTop="@+id/textView_comfort_index"
+        android:layout_alignLeft="@+id/textView_travel_index"
+        android:layout_alignStart="@+id/textView_travel_index" />
+
+
+</RelativeLayout>

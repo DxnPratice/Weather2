@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="weather.duanzhao.com.weather2.NowFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29"
+        android:textSize="64sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView_temp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="东北风"
+        android:textSize="48sp"
+        android:layout_margin="32dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView_wind_direction"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一级"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_marginRight="16dp"
+            android:gravity="right"
+            android:id="@+id/textView_strength" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="58%"
+            android:textSize="32sp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:id="@+id/textView_humidity" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="28sp"
+        android:text="16:49"
+        android:id="@+id/textView_time"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+
+
